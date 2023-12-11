@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: black;
+}
+
+.imgenFondo{
+    background-image: url("/public/Images/Easport.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.imgenFondoRegister{
+    background-image: url("/public/Images/EASPORT2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.newFont{
+      font-family: 'Bungee Spice', sans-serif;
+      font-family: 'Pacifico', cursive;
+      font-family: 'Quando', serif;
+}
+
+.fontForm{
+    font-family: 'Bungee Spice', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Quando', serif;
+}
+
+
+.regiters :hover .titulo{
+    color: red;
+}
+
+
+
+@media (max-width: 1200px) {
+      .ocultar{
+        display:none !important;
+      }
+  }
+
+  @media (max-width: 1110px) {
+    .ocultarFotoRegistro{
+      display:none !important;
+    }
+}
+
+  
+@media (max-width: 1999px) {
+    body{
+        background-image: url("/public/Images/backimage2.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+}
+
