@@ -155,7 +155,7 @@ function getID(){
                  <label htmlFor="Confrimpassword" className="block text-start mb-3 text-white fontForm font-bold">
                     Confirm your Passwrod:
                 </label>
-                <input type="password" name="Confrimandopassword" id="Confrimandopassword" 
+                <input type="new-password" name="Confrimandopassword" id="Confrimandopassword" 
                 className=" rounded-md w-full py-1 px-3 mb-10"
                 value={Confirmando}
                 onInput={e => setConfirmando(e.target.value)}
