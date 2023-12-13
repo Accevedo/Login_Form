@@ -10,12 +10,14 @@ body{
     background-image: url("/public/Images/Easport.jpg");
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .imgenFondoRegister{
     background-image: url("/public/Images/EASPORT2.jpg");
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .newFont{
